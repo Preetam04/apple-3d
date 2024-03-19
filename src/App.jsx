@@ -1,5 +1,17 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
+import Model from "./components/Model";
+
 function App() {
-  return <h1 className="text-3xl bg-red-500 font-bold underline">Hemloo</h1>;
+  return (
+    <main className="bg-black ">
+      <Navbar />
+      <Hero />
+      <Highlights />
+      <Model />
+    </main>
+  );
 }
 
 export default App;
